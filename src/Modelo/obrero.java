@@ -1,10 +1,6 @@
 package Modelo;
 
-public class docente implements Persona {
-	private String nombre=null;
-	private String apellido=null;
-	private String email=null;
-	private Integer dni=null;
+public class obrero implements Persona {
 
 	@Override
 	public Float salario() {
@@ -17,7 +13,5 @@ public class docente implements Persona {
 		// TODO Auto-generated method stub
 		return null;
 	}
-	
-
 
 }
