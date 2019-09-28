@@ -3,9 +3,16 @@ package Modelo;
 public class docente implements Persona {
 
 	@Override
-	public void getnombre(String nombre) {
+	public Float salario() {
 		// TODO Auto-generated method stub
-
+		return null;
 	}
+
+	@Override
+	public String beneficios() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 
 }
