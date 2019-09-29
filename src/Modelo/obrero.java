@@ -1,6 +1,10 @@
 package Modelo;
 
 public class obrero implements Persona {
+	private String nombre = null;
+	private String apellido = null;
+	private String email = null;
+	private Integer dni = null;
 
 	@Override
 	public Float salario() {
